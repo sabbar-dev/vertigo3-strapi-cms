@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_content_cover_image_blocks",
+  "info": {
+    "name": "cover",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pages_whies",
+  "info": {
+    "name": "why",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.cover-image-block"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.image"
+    }
+  }
+}

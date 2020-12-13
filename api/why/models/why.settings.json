@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "whies",
+  "info": {
+    "name": "why",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "richtext"
+    },
+    "cover": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.cover-image-block"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.image"
+    }
+  }
+}
