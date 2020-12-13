@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "approaches",
+  "collectionName": "teams",
   "info": {
-    "name": "approach",
-    "description": ""
+    "name": "Team"
   },
   "options": {
     "increments": true,

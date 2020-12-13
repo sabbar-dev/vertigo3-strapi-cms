@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "approaches",
+  "collectionName": "histories",
   "info": {
-    "name": "approach",
-    "description": ""
+    "name": "history"
   },
   "options": {
     "increments": true,

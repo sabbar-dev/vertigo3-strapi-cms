@@ -22,16 +22,6 @@
     },
     "category": {
       "type": "string"
-    },
-    "cover": {
-      "type": "component",
-      "repeatable": false,
-      "component": "content.cover-image-block"
-    },
-    "sections": {
-      "type": "component",
-      "repeatable": true,
-      "component": "content.image"
     }
   }
 }
