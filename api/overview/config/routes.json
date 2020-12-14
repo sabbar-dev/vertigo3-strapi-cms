@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/overview",
+      "handler": "overview.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/overview",
+      "handler": "overview.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/overview",
+      "handler": "overview.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
